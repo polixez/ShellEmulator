@@ -320,24 +320,8 @@ python shell_emulator.py config.ini Убрана не нужная по усло
 
  С помощью ручного ввода рассмотрим как работают команды в эмуляторе
  
- ````
-user@virtual:/$ ls
-dir1/
-file1.txt
-user@virtual:/$ cd dir1
-user@virtual:/dir1$ ls
-subdir/
-file2.txt
-user@virtual:/dir1$ tail file2.txt
-Content of file2
-user@virtual:/dir1$ date
-Tue Oct 10 14:23:15 2023
-user@virtual:/dir1$ mv file2.txt file_renamed.txt
-user@virtual:/dir1$ ls
-subdir/
-file_renamed.txt
-user@virtual:/dir1$ exit
-````
+![image](https://github.com/user-attachments/assets/6c118898-3b27-49e1-bfdf-fd60a62d3a86)
+
 В результате видим во время прогна всех необходимых команд в одной сессии, все они корректно выполняют свою работу
 
 ## Результаты прогонов тестов
